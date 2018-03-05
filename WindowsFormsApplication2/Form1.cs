@@ -27,6 +27,18 @@ namespace WindowsFormsApplication2
 
         }
 
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            State state1 = new State();
+            List<State> stateList = state1.getNewStates(Player.Odd);
+            Console.WriteLine("***************");
+            List<State> stateList2 = stateList[0].getNewStates(Player.Even);
+            Console.WriteLine("***************");
+            List<State> stateList3 = stateList2[0].getNewStates(Player.Odd);
+            //foreach (State st in stateList)
+            //{
+            //    MessageBox.Show(st.displayState1());
+            //}
+        }
     }
 }

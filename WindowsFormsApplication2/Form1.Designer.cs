@@ -45,6 +45,7 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,7 +79,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(250, 250);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(248, 248);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // textBox16
@@ -90,7 +91,7 @@
             this.textBox16.Location = new System.Drawing.Point(189, 189);
             this.textBox16.Multiline = true;
             this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(58, 58);
+            this.textBox16.Size = new System.Drawing.Size(56, 56);
             this.textBox16.TabIndex = 15;
             this.textBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -103,7 +104,7 @@
             this.textBox15.Location = new System.Drawing.Point(127, 189);
             this.textBox15.Multiline = true;
             this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(56, 58);
+            this.textBox15.Size = new System.Drawing.Size(56, 56);
             this.textBox15.TabIndex = 14;
             this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -116,7 +117,7 @@
             this.textBox14.Location = new System.Drawing.Point(65, 189);
             this.textBox14.Multiline = true;
             this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(56, 58);
+            this.textBox14.Size = new System.Drawing.Size(56, 56);
             this.textBox14.TabIndex = 13;
             this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -129,7 +130,7 @@
             this.textBox13.Location = new System.Drawing.Point(3, 189);
             this.textBox13.Multiline = true;
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(56, 58);
+            this.textBox13.Size = new System.Drawing.Size(56, 56);
             this.textBox13.TabIndex = 12;
             this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -142,7 +143,7 @@
             this.textBox12.Location = new System.Drawing.Point(189, 127);
             this.textBox12.Multiline = true;
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(58, 56);
+            this.textBox12.Size = new System.Drawing.Size(56, 56);
             this.textBox12.TabIndex = 11;
             this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -194,7 +195,7 @@
             this.textBox8.Location = new System.Drawing.Point(189, 65);
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(58, 56);
+            this.textBox8.Size = new System.Drawing.Size(56, 56);
             this.textBox8.TabIndex = 7;
             this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -246,7 +247,7 @@
             this.textBox4.Location = new System.Drawing.Point(189, 3);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(58, 56);
+            this.textBox4.Size = new System.Drawing.Size(56, 56);
             this.textBox4.TabIndex = 3;
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -293,11 +294,22 @@
             this.textBox2.TabIndex = 1;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(182, 45);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(274, 343);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -326,6 +338,7 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button button1;
     }
 }
 
