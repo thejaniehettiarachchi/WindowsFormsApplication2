@@ -8,3 +8,11 @@ C:\Users\tkhnh6\Downloads\WindowsFormsApplication2-master\WindowsFormsApplicatio
 C:\Users\tkhnh6\Downloads\WindowsFormsApplication2-master\WindowsFormsApplication2-master\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
 C:\Users\tkhnh6\Downloads\WindowsFormsApplication2-master\WindowsFormsApplication2-master\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
 C:\Users\tkhnh6\Downloads\WindowsFormsApplication2-master\WindowsFormsApplication2-master\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\Thejanie\documents\visual studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\Thejanie\documents\visual studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\Thejanie\documents\visual studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\Thejanie\documents\visual studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\Thejanie\documents\visual studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Thejanie\documents\visual studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\Thejanie\documents\visual studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\Thejanie\documents\visual studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache

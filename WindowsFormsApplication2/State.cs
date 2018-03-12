@@ -15,8 +15,8 @@ namespace WindowsFormsApplication2
     class State
     {
         public int?[] array = new int?[16];
-        List<int> numberList = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 }; // Enumerable.Range(1, 16).ToList();
-        readonly  List<int[]> lines = new List<int[]> {
+        public List<int> numberList = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 }; // Enumerable.Range(1, 16).ToList();
+        public readonly  List<int[]> lines = new List<int[]> {
             new int[] { 0, 1, 2, 3 },
             new int[] { 4, 5, 6, 7 },
             new int[] { 8, 9, 10, 11 },
@@ -36,6 +36,18 @@ namespace WindowsFormsApplication2
 
         }
 
+        public State (int?[] numArray)
+        {
+            this.array = numArray;
+            for (int i=1; i<=16; i++)
+            {
+                if (array.Contains(i))
+                {
+                    numberList.Remove(i);
+                }
+            }
+
+        }
         //public State(int n0, int n1, int n2, int n3, int n4, int n5, int n6, int n7, int n8, int n9, int n10, int n11, int n12, int n13, int n14, int n15 )
         //{
         //    this.array[0] = n0;
@@ -79,7 +91,7 @@ namespace WindowsFormsApplication2
         public List<State> getNewStates ( Player pl)
         {
             List<State> newStates = new List<State>();
-            for (int i=0; i < 3; i++) //TODO
+            for (int i=0; i < 16; i++) //TODO
             {
                 int div = (pl == Player.Even) ? 0 : 1;
                 //List<int> availList = new List<int>();
