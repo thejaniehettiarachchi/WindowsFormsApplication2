@@ -129,16 +129,16 @@ namespace WindowsFormsApplication2
         {
             foreach (int[] arr in lines)
             {
-                //if (array[arr[0]]+ array[arr[1]] + array[arr[2]] + array[arr[3]] >= 34)
-                //{
-                //    return true;
-                //}
-                var nums = new int?[] { array[arr[0]], array[arr[1]], array[arr[2]], array[arr[3]] };
-                var sum = nums.Sum();
-                if (sum >= 34)
+                if (array[arr[0]] + array[arr[1]] + array[arr[2]] + array[arr[3]] >= 34)
                 {
                     return true;
                 }
+                //var nums = new int?[] { array[arr[0]], array[arr[1]], array[arr[2]], array[arr[3]] };
+                //var sum = nums.Sum();
+                //if (sum >= 34)
+                //{
+                //    return true;
+                //}
             }
             return false;
         }

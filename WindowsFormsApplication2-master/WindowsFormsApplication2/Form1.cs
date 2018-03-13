@@ -55,44 +55,26 @@ namespace WindowsFormsApplication2
                 }
             }
 
-            //numericUpDown1.Text = null;
-            // int?[] stNums = { numericUpDown1.Value, 2, 3, 4, 5, 6, 7, 8, 9, null, null, null, null, 14, null, 15 };
-            //int?[] stNum = { 1, 2, 3, 4, 5, 6, 7, 8, 9, null, null, null, null, 14, null, 15 };
             State state1 = new State(stNums);
             if (state1.checkWin())
             {
                 MessageBox.Show("You won!!!");
             }
-            Minimax mm = new Minimax();
-
-            State state2 = mm.minimaxDec(state1, Player.Even);
-            displayState(state2);
-            editLabels(state2);
-            dsCombobox(state2);
-            enableCB();
-            if (state2.checkWin())
+            else
             {
-                MessageBox.Show("You lost...");
+                Minimax mm = new Minimax();
+
+                State state2 = mm.minimaxDec(state1, Player.Even);
+                displayState(state2);
+                editLabels(state2);
+                dsCombobox(state2);
+                enableCB();
+                if (state2.checkWin())
+                {
+                    MessageBox.Show("You lost...");
+                }
             }
-            //int[] dec = mm.minmaxDec(state1, Player.Even);
-
-            //String nm = "numericUpDown" + (dec[0] + 1).ToString();
-            ////MessageBox.Show(nm);
-            //string numb = dec[1].ToString();
-            //var numud = this.Controls.Find(nm, true).FirstOrDefault() as NumericUpDown;
-            //numud.Value = (decimal)dec[1];
-
-
-
-            //List<State> stateList = state1.getNewStates(Player.Odd);
-            //Console.WriteLine("***************");
-            //List<State> stateList2 = stateList[0].getNewStates(Player.Even);
-            //Console.WriteLine("***************");
-            //List<State> stateList3 = stateList2[0].getNewStates(Player.Odd);
-            //foreach (State st in stateList)
-            //{
-            //    MessageBox.Show(st.displayState1());
-            //}
+        
         }
         private void editLabels(State state)
         {
